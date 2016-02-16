@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script src="js/app.js"></script>
+
+
+		<!-- <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+		<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script> -->
+		<title>JavaScript Part</title>
+	</head>
+	<body>
+		<div class="routing">
+		<div class="top">
+				<div class="xSymbol">&#10006;</div>
+				<img src="img/logo-best-brands.png">
+		</div>
+	<div class="parent">
+			<div class="topText1">
+			 <span class="greenText">Home/Existing Service </span><span class="grayText">/ Mobile</span>
+			</div>
+			<div class="topText2">
+			<p class="question">Which Mobile topic would you <br>like help with?</p>
+			</div>
+			<ul class="options">
+				<li class="billing"><img src="img/icon-billing.png"> Billing and Payments</li>
+			
+				<li><img src="img/icon-tech-support.png"> Technical Support</li>
+	
+				<li><img src="img/icon-login.png"> Account Login Support</li>
+	
+				<li><img src="img/icon-other.png"> Other</li>
+
+				<li><img src="img/icon-back-button.png">Back</li>
+			</ul>
+		</div>
+		<div class="footer">
+			<img src="img/logo-tc.png">
+		</div>	
+		</div>
+	</div>
+
+
+<div class="survey">
+		<div class="top">
+			<div class="xSymbol">&#10006;</div>
+			<img src="img/logo-best-brands.png">
+		</div>
+	<div class="parent">
+		<p class="question">Which Mobile topic would you <br>like help with?</p>
+	 
+	 <form role="form" action="" id="register-form">
+    <div class="form-group">
+
+      <label for="text">Full Name:*</label>
+      <div class="fullName">
+       <input type="text" class="form-control" id="email" name="name" placeholder="John Doe" required>
+       <img src="img/icon-form-avatar.png">
+    	</div>
+    </div>
+    <div class="form-group">
+
+      <label for="tel"><span class="mobileHeader">Mobile Phone Number:*</span></label>
+      <div class="mobileNum">
+       <input type="tel" pattern="\d{3}-?\d{3}-?\d{4}" class="form-control" id="phoneNum" name="phoneNumber" placeholder="ex: 123-123-1234" required>
+       <img src="img/icon-form-phone.png">
+     </div>
+    </div>
+
+    <div class="state">
+    <div class="form-group">
+      <label for="sel1"><span class="stateHeader">State:</span></label>
+			  <select class="form-control" id="sel1">
+			    <option>Select one</option>
+			    <option value="California">California</option>
+			  </select>
+			  <div class="nextQuestion">
+				  <label for="sel2"><span class="followUpQuestion">Was your phone purchased in CA?</span></label>
+				  <select class="form-control" type="submit" id="sel2">
+				    <option>Select one</option>
+				    <option>Yes</option>
+				    <option>No</option>
+				  </select>
+				</div>
+		</div>
+	  </div>
+
+    <div class="form-group">
+		  <label for="describeQuestion"><span class="describe">Describe your question...</span></label>
+		  <textarea class="form-control" rows="5" id="comment"></textarea>
+		</div>
+		<div class="bottom">
+		</form>
+	   
+		<button type="submit" class="test">Start Chat</button>
+	  		<p class="bottomText">* Required field</p>
+		</div>
+		<div class="footer">
+			<img src="img/logo-tc.png">
+		</div>	
+	</div>
+	</div> <!-- survey -->
+
+
+	<div class="survey2">
+
+			<div class="top">
+			<div class="xSymbol">&#10006;</div>
+			<img src="img/logo-best-brands.png">
+		</div>
+	<div class="parent">
+		<p class="question">Which Mobile topic would you <br>like help with?</p>
+	 
+	 <form role="form" action="" id="register-form2">
+    <div class="form-group">
+
+      <label for="text">Full Name:*</label>
+      <div class="fullName">
+       <input type="text" class="form-control" id="email" name="name" placeholder="John Doe" required>
+       <img src="img/icon-form-avatar.png">
+    	</div>
+    </div>
+    <div class="form-group">
+
+      <label for="tel"><span class="mobileHeader">Mobile Phone Number:*</span></label>
+      <div class="mobileNum">
+       <input type="tel" pattern="\d{3}-?\d{3}-?\d{4}" class="form-control" id="phoneNum" name="phoneNumber" placeholder="ex: 123-123-1234" required>
+       <img src="img/icon-form-phone.png">
+     </div>
+    </div>
+
+    <div class="state">
+    <div class="form-group">
+      <label for="sel1"><span class="stateHeader">State:</span></label>
+			  <select class="form-control" id="sel1">
+			    <option value="California">California</option>
+			    <option>Select one</option>
+			  </select>
+			  <div class="nextQuestion">
+				  <label for="sel2"><span class="followUpQuestion">Was your phone purchased in CA?</span></label>
+				  <select class="form-control" id="sel2">
+				    <option>Select one</option>
+				    <option>Yes</option>
+				    <option>No</option>
+				  </select>
+				</div>
+		</div>
+	  </div>
+
+    <div class="form-group">
+		  <label for="describeQuestion"><span class="describe">Describe your question...</span></label>
+		  <textarea class="form-control" rows="5" id="comment"></textarea>
+		</div>
+		<div class="bottom">
+		</form>
+	   
+		<button type="submit" class="test">Start Chat</button>
+	  		<p class="bottomText">* Required field</p>
+		</div>
+		<div class="footer">
+			<img src="img/logo-tc.png">
+		</div>	
+	</div>
+	</div> <!-- survey2 -->
+
+	<div class="congrats">
+		<div class="top">
+				<div class="xSymbol">&#10006;</div>
+				<img src="img/logo-best-brands.png">
+		</div>
+	<div class="parent">
+			<p class="lastScreen">Congratulations!! You have <br> reached the chat agent.</p>
+		</div>
+		<div class="footer">
+			<img src="img/logo-tc.png">
+		</div>	
+		</div>
+	</div>
+
+	</body>
+</html>

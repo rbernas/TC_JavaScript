@@ -1,0 +1,249 @@
+.routing {
+	position: relative;
+	width: 300px;
+	height: 470px;
+	border: 1px solid #9C9C9C;
+}
+
+.survey {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 625px;
+	border: 1px solid #9C9C9C;
+	z-index: 100;
+}
+
+.congrats {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 625px;
+	border: 1px solid #9C9C9C;
+	z-index: 500;
+}
+
+.top {
+	width: 100%;
+	height: 50px; 
+
+	border: 1px solid #9C9C9C;
+	background-color: #302C2B;
+	background-repeat: no-repeat;
+	border-radius: 15px 0 0 0;
+	border-bottom: 5px solid #C4E802;
+}
+
+.top img {
+	height: 60px;
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+.xSymbol {
+	color: #FFFFFF;
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+	font-size: 150%;
+}
+
+.parent {
+	border-top: 0;
+}
+
+.greenText {
+	color: #687A48;
+}
+
+.grayText {
+	color: #808080;
+}
+
+.topText1 {
+	padding-left: 10px;
+	padding-top: 25px;
+	margin-bottom: 10px;
+}
+
+.topText2 {
+	padding-left: 10px;
+	margin-bottom: 30px;
+}
+
+li {
+	padding-left: 10px;
+	height: 50px;
+}
+
+/*-----------*/
+.question { /* question tag in routing template */
+	font-weight: bold;
+}
+
+.survey .parent .question { /* question tag in survey template */
+	font-weight: bold;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+.survey2 .parent .question { /* question tag in survey template */
+	font-weight: bold;
+	padding-top: 40px;
+	padding-left: 20px;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+li:hover {
+	cursor: pointer;
+	background-color: #9AD000;
+	color: #FFFFFF;
+}
+
+.options{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.footer {
+	position: relative;
+	width: 100%;
+	height: 20px;
+	top: 13px;
+
+	background-repeat: no-repeat;
+	background-color: #E5E5E5;
+}
+
+.footer img {
+	height: 15px;
+	margin-bottom: 10px;
+}
+
+/* below are all in survey template */
+.form-group {
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+input[type="text"] {
+	padding-left: 40px;
+}
+
+input[type="tel"] {
+	padding-left: 40px;
+}
+
+.fullName img {
+	position: relative;
+	bottom: 29px;
+	left: 5px;
+}
+
+.mobileHeader {
+	position: relative;
+	bottom: 20px;
+}
+
+.mobileNum {
+	position: relative;
+	bottom: 20px;
+}
+
+.mobileNum img {
+	position: relative;
+	bottom: 29px;
+	left: 5px;
+}
+
+.stateHeader {
+	position: relative;
+	bottom: 10px;
+}
+
+.state {
+	position: relative;
+	bottom: 29px;
+}
+
+#sel1 {
+	position: relative;
+	bottom: 10px;
+}
+
+.describe {
+	position: relative;
+	bottom: 30px;
+}
+
+#comment {
+	position: relative;
+	bottom: 30px;
+}
+
+.bottom {
+	text-align: right;
+	padding-right: 20px;
+	position: relative;
+	bottom: 30px;
+}
+
+.bottomText {
+	font-size: 75%;
+	color: 	#808080;
+}
+
+.survey .parent .footer {
+	position: relative;
+	width: 100%;
+	height: 20px;
+	top: -10px;
+	background-repeat: no-repeat;
+	background-color: #E5E5E5;
+}
+
+.test {
+	color: #FFFFFF;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border-radius: 5px;
+	background-color: #A6D902;
+}
+
+.nextQuestion {
+	display: none;
+}
+
+.survey2 {
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 300px;
+	height: 707px;
+	border: 1px solid #9C9C9C;
+	z-index: 100;
+}
+
+select.error, textarea.error, input.error {
+    color: black;
+    background-color: #FFCCCB;
+}
+
+.congrats .lastScreen {
+	font-weight: bold;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+.congrats .footer {
+	top: 483px;
+}
